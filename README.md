@@ -1,5 +1,5 @@
 # tradingview-crypto-signals
-A local HTTP server to fetch cryptocurrency BUY/SELL signals from TradingView, built on top of the `tradingview_ta` package. The returned data are in JSON format and can be easily parsed using any language.
+A local HTTP server to fetch cryptocurrency BUY/SELL signals from TradingView, built on top of the `tradingview_ta` [package](https://github.com/deathlyface/python-tradingview-ta). The returned data are in JSON format and can be easily parsed using any language.
 
 ## Example
 
@@ -22,9 +22,9 @@ The results are in JSON format and the timestamp is UTC:
 
 ## Arguments
 
-- `exchange`: All supported exchanges by `tradingview_ta`, e.g. `BINANCE` (default) or `BITTREX`
-- `pairs`: All crypto pairs found in the chosen `exchange`, e.g. `BTCUSDT`(default)
-- `interval`: All supported time intervals by `tradingview_ta`, i.e. `1m`, `5m`, `15m`, `1h`, `4h`, `1d` (default), `1w`, `1M`.
+- `exchange`: All exchanges supported by `tradingview_ta`, e.g. `BINANCE` (default) or `BITTREX`
+- `pairs`: All crypto pairs found on the chosen `exchange`, e.g. `BTCUSDT`(default)
+- `interval`: All time intervals supported by `tradingview_ta`, i.e. `1m`, `5m`, `15m`, `1h`, `4h`, `1d` (default), `1w`, `1M`.
 
 ## Target Machines
 You may find pre-built containers for different OS and H/W architectures:
