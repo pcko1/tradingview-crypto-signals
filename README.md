@@ -11,7 +11,7 @@ It takes **one line** to get the server up and running using `docker`, without e
 docker run -it -p 8002:6666 pcko1/tvcs:latest --pairs BTCUSDT,ETHBTC,LINKUSDT --interval 1h --exchange BINANCE
 ```
 
-After the server starts, you can access the results at http://localhost/8002. 
+After the server starts, you can access the results at http://localhost/8002 and a `GET` request refreshes them.
 
 The results are in JSON format and the timestamp is UTC:
 
