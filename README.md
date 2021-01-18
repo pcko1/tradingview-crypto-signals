@@ -8,10 +8,9 @@ It takes **one line** to get the server up and running using `docker`, without e
 docker run -it -p 8002:6666 pcko1/tvcs:latest --pairs BTCUSDT,ETHBTC,LINKUSDT --interval 1h --exchange BINANCE
 ```
 
-<<<<<<< HEAD
 After the server starts, you can access the results at http://localhost/8002. 
 
-The results are in JSON format and the timestamp is in UTC:
+The results are in JSON format and the timestamp is UTC:
 
 ```json
 [ { "pair": "BTCUSDT", "exchange": "BINANCE", "interval": "1h", "recommendation": "BUY", "votes": { "buy": 16, "sell": 3, "neutral": 9 }, "timestamp": 1611006994 }, { "pair": "ETHBTC", "exchange": "BINANCE", "interval": "1h", "recommendation": "BUY", "votes": { "buy": 13, "sell": 6, "neutral": 9 }, "timestamp": 1611006994 }, { "pair": "LINKUSDT", "exchange": "BINANCE", "interval": "1h", "recommendation": "SELL", "votes": { "buy": 10, "sell": 9, "neutral": 9 }, "timestamp": 1611006995 } ]
@@ -31,9 +30,3 @@ You may find pre-built containers for different OS and H/W architectures (such a
 - `pcko1:tvcs:linux/arm64` 
 - `pcko1:tvcs:linux/arm/v/7`
 - `pcko1:tvcs:linux/arm/v/6`
-=======
-## Re-build the image
-```bash
-docker build -t tvcs:latest --no-cache .
-```
->>>>>>> 59895acf4730de859dfc7f3eb01a3bcb6ca1e3ce
