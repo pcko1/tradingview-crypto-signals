@@ -1,8 +1,13 @@
 # tradingview-crypto-signals
-A simple server to fetch cryptocurrency BUY/SELL signals from TradingView
+A simple HTTP server to fetch cryptocurrency BUY/SELL signals from TradingView.
 
 ## Example
 
 ```bash
-python tvcs/main.py --pairs BTCUSDT,ETHUSDT,LINKUSDT --exchange BINANCE --interval 1m
+docker run -it -p 8002:6666 pcko1/tvcs:latest --pairs ETHBTC,LINKUSDT --interval 1h --exchange BINANCE
+```
+
+## Re-build the image
+```bash
+docker build -t tvcs:latest --no-cache .
 ```
