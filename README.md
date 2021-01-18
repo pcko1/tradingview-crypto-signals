@@ -2,6 +2,9 @@
 A local HTTP server to fetch cryptocurrency BUY/SELL signals from TradingView, built on top of the `tradingview_ta` package. The returned data are in JSON format and can be easily parsed using any language.
 
 ## Example
+
+### Docker
+
 It takes **one line** to get the server up and running using `docker`, without even cloning the repo.
 
 ```bash
@@ -24,9 +27,9 @@ The results are in JSON format and the timestamp is UTC:
 - `interval`: All supported time intervals by `tradingview_ta`, i.e. `1m`, `5m`, `15m`, `1h`, `4h`, `1d` (default), `1w`, `1M`.
 
 ## Target Machines
-You may find pre-built containers for different OS and H/W architectures (such as `arm` if you have a Raspberry Pi as host):
+You may find pre-built containers for different OS and H/W architectures:
 
-- `pcko1:tvcs:linux/amd64`
-- `pcko1:tvcs:linux/arm64` 
-- `pcko1:tvcs:linux/arm/v/7`
-- `pcko1:tvcs:linux/arm/v/6`
+- `pcko1/tvcs:linux/amd64`
+- `pcko1/tvcs:linux/arm64` 
+- `pcko1/tvcs:linux/arm/v/7`
+- `pcko1/tvcs:linux/arm/v/6`
