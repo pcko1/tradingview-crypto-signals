@@ -1,1 +1,2 @@
-from ._tvcs import TVCS
+from .client import TVCSClient
+from .enums import ExchangesEnum
