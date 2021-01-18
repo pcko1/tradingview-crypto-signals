@@ -1,5 +1,5 @@
 # tradingview-crypto-signals
-A local HTTP server to fetch cryptocurrency BUY/SELL signals from TradingView, built on top of the `tradingview_ta` [package](https://github.com/deathlyface/python-tradingview-ta). The returned data are in JSON format and can be easily parsed using any language.
+A local HTTP server to fetch cryptocurrency BUY/SELL signals from [TradingView](http://tradingview.com/), built on top of the `tradingview_ta` [package](https://github.com/deathlyface/python-tradingview-ta). The returned data are in JSON format and can be easily parsed using any language.
 
 ## Example
 
@@ -33,3 +33,7 @@ You may find pre-built [images](https://hub.docker.com/repository/docker/pcko1/t
 - `pcko1/tvcs:linux/arm64` 
 - `pcko1/tvcs:linux/arm/v/7`
 - `pcko1/tvcs:linux/arm/v/6`
+
+___
+
+*DISCLAIMER: The signals provided by this package do not correspond to financial advice. Refer to [TradingView](http://tradingview.com/) on how to use them.*
