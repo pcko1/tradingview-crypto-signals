@@ -1,5 +1,5 @@
 # tradingview-crypto-signals
-A local HTTP server to fetch cryptocurrency BUY/SELL signals from [TradingView](http://tradingview.com/), that wraps the `tradingview_ta` python [package](https://github.com/deathlyface/python-tradingview-ta). The returned data are in JSON format and can be easily parsed using any language.
+A local HTTP server to fetch cryptocurrency BUY/SELL signals from [TradingView](http://tradingview.com/), that wraps the `tradingview_ta` python [package](https://github.com/deathlyface/python-tradingview-ta). The returned data are in JSON format and are language-agnostic.
 
 ## Example
 
